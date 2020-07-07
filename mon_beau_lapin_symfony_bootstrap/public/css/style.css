@@ -1,26 +1,6 @@
-@font-face {
-    font-family: 'polTangerine';
-    src: url('../polTangerine/tangerine_bold-webfont.woff');
-    src: url('../polTangerine/tangerine_bold-webfont.woff2');
-    src: url('../polTangerine/tangerine_regular-webfont.woff');
-    src: url('../polTangerine/tangerine_regular-webfont.woff2');
-}
-@font-face {
-    font-family: 'polYrsabold';
-    src: url('../polYrsa/yrsa-bold-webfont.woff');
-    src: url('../polYrsa/yrsa-bold-webfont.woff2');
-    font-family: 'polYrsalight';
-    src: url('../polYrsa/yrsa-light-webfont.woff');
-    src: url('../polYrsa/yrsa-light-webfont.woff2');
-    font-family: 'polYrsamedium';
-    src: url('../polYrsa/yrsa-medium-webfont.woff');
-    src: url('../polYrsa/yrsa-medium-webfont.woff2');
-    font-family: 'polYrsaregular';
-    src: url('../polYrsa/yrsa-regular-webfont.woff');
-    src: url('../polYrsa/yrsa-regular-webfont.woff2');
-    font-family: 'polYrsasemibold';
-    src: url('../polYrsa/yrsa-semibold-webfont.woff');
-    src: url('../polYrsa/yrsa-semibold-webfont.woff2');
+body{
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /* EN-TETE */
@@ -29,22 +9,25 @@
 }
 
 h1 {
-    font-family: 'polTangerine', "Comic Sans MS", serif;
+    font-family: 'Tangerine', "Comic Sans MS", serif;
     font-size: 7vw;
     padding-top: 20px;
     margin-bottom: -10px;
 }
 
 .navbar {
-    font-family: 'polYrsa', "Comic Sans MS", serif;
+    font-family: 'Yrsa', serif;
     font-size: 2vw;
 }
 
+.nav-link{
+    padding-right: 35px!important;
+}
 
 
 /* BODY */
 p {
-    font-size: 2vw;
+    font-size: 1.6vw;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -56,7 +39,7 @@ p {
 
 .body {
     background-color: #EDF8F3;
-    font-family: 'polYrsa', "Comic Sans MS", serif;
+    font-family: 'Yrsa', serif;
     margin-bottom: 20px;
 }
 
