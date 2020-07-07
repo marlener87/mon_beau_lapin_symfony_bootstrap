@@ -16,4 +16,15 @@ class MblController extends AbstractController
             'controller_name' => 'MblController',
         ]);
     }
+
+
+        /**
+     * @Route("/", name="home")
+     */
+    public function home()
+    {
+        return $this->render('mbl/home.html.twig', 
+            // 'controller_name' => 'MblController',
+        );
+    }
 }

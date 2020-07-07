@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'polTangerine';
+    src: url('../polTangerine/tangerine_bold-webfont.woff');
+    src: url('../polTangerine/tangerine_bold-webfont.woff2');
+    src: url('../polTangerine/tangerine_regular-webfont.woff');
+    src: url('../polTangerine/tangerine_regular-webfont.woff2');
+}
+@font-face {
+    font-family: 'polYrsabold';
+    src: url('../polYrsa/yrsa-bold-webfont.woff');
+    src: url('../polYrsa/yrsa-bold-webfont.woff2');
+    font-family: 'polYrsalight';
+    src: url('../polYrsa/yrsa-light-webfont.woff');
+    src: url('../polYrsa/yrsa-light-webfont.woff2');
+    font-family: 'polYrsamedium';
+    src: url('../polYrsa/yrsa-medium-webfont.woff');
+    src: url('../polYrsa/yrsa-medium-webfont.woff2');
+    font-family: 'polYrsaregular';
+    src: url('../polYrsa/yrsa-regular-webfont.woff');
+    src: url('../polYrsa/yrsa-regular-webfont.woff2');
+    font-family: 'polYrsasemibold';
+    src: url('../polYrsa/yrsa-semibold-webfont.woff');
+    src: url('../polYrsa/yrsa-semibold-webfont.woff2');
+}
+
+/* EN-TETE */
+.en-tete {
+    background-color: #4FB68D;
+}
+
+h1 {
+    font-family: 'polTangerine', "Comic Sans MS", serif;
+    font-size: 7vw;
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+
+.navbar {
+    font-family: 'polYrsa', "Comic Sans MS", serif;
+    font-size: 2vw;
+}
+
+
+
+/* BODY */
+p {
+    font-size: 2vw;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.phrase {
+    font-size: 3vw;
+    padding-top: 20px;
+}
+
+.body {
+    background-color: #EDF8F3;
+    font-family: 'polYrsa', "Comic Sans MS", serif;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 200px;
+    width: auto;
+}
+.chemin {
+    height: 300px;
+    width: auto;
+}
+
+.text{
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #e8ffe6;
+    padding-top: 20px; 
+    margin-top: -30px;
+}
+.pfoot {
+    font-size: 1.5vw;
+}
+.imgFooter{
+    max-width: 100%;
+    height: auto;
+    padding-right: 10px;
+}
+.row{
+    margin-bottom: -20px;
+}
+
+
+
+/* MEDIA QUERIES */
+/* TELEPHONE */
+@media screen and (max-width: 768px) {
+    .navbar{
+        top: -60px;
+        margin-bottom: -60px;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+    .dropdown-menu{
+        font-size:10px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .imgFooter {
+        padding-right: 5px;
+        margin-bottom: 0;
+        margin-top: -15px;
+    }
+    ul.img-fluid{
+        margin-bottom: 0;
+    }
+    .row{
+        margin-bottom: -30px;
+    }
+    .espace {
+        padding-bottom: 0;
+    }
+    p{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .phrase{
+        font-size: 15px;
+    }
+    .text{
+        margin-bottom: 20px;
+    }
+    .pfoot{
+        font-size: 10px;
+    }
+    h2{
+        font-size: medium;
+    }
+    .form_col{
+        margin: -145px;
+    }
+    .MDP {
+        display: none !important;
+    }
+}
+
+
+/* IPAD */
+@media screen and (min-width: 768px) and (max-width: 900px){
+    .navbar{
+        padding-top: 50px;
+        margin-bottom: -40px;
+    }
+    .logo {
+        height: 150px;
+        width: auto;
+    }
+    .chemin{
+        height: 250px;
+        width: auto;
+    }
+    p{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .phrase{
+        font-size: 25px;
+    }
+    .text{
+        margin-bottom: 20px;
+    }
+    .pfoot{
+        font-size: 15px;
+    }
+    .form_col{
+        margin-left: 30px;
+    }
+}
+
+
+
+
+/* FORMULAIRE */	
+#myForm{
+    padding-bottom: 20px;
+}
+
+.form_col {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 3px 0px;
+    width: 250px;
+    min-height: 1px;
+    text-align: right;
+}
+	
+input {
+	padding: 2px;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	outline: none; /* Retire les bordures appliquées par certains navigateurs (Chrome notamment) lors du focus des éléments <input> */
+}
+	
+input:focus {
+	border-color: rgba(82, 168, 236, 0.75);
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+}
+	
+.correct {
+	border-color: rgba(68, 191, 68, 0.75);
+}
+	
+.correct:focus {
+	border-color: rgba(68, 191, 68, 0.75);
+	box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+}
+	
+.incorrect {
+	border-color: rgba(191, 68, 68, 0.75);
+}
+	
+.incorrect:focus {
+	border-color: rgba(191, 68, 68, 0.75);
+	box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+}
+	
+.erreur {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 2px 4px;
+	border: 1px solid #555;
+	background-color: #CCC;
+	border-radius: 4px;
+}
