@@ -24,6 +24,9 @@ h1 {
     padding-right: 35px!important;
 }
 
+.slide{
+    width: 2000px;
+}
 
 /* BODY */
 p {
@@ -66,9 +69,8 @@ p {
     font-size: 1.5vw;
 }
 .imgFooter{
-    max-width: 100%;
-    height: auto;
-    padding-right: 10px;
+    height: 30px;
+    padding-right: 30px;
 }
 .row{
     margin-bottom: -20px;

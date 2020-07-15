@@ -18,13 +18,29 @@ class MblController extends AbstractController
     }
 
 
-        /**
+    /**
      * @Route("/", name="home")
      */
     public function home()
     {
-        return $this->render('mbl/home.html.twig', 
+        return $this->render('mbl/home.html.twig' 
             // 'controller_name' => 'MblController',
         );
+    }
+
+    /**
+     * @Route("/journee", name="journee")
+     */
+    public function journee()
+    {
+        return $this->render('mbl/journee.html.twig');
+    }
+
+    /**
+     * @Route("/text", name="text")
+     */
+    public function text()
+    {
+        return $this->render('mbl/text.html.twig');
     }
 }
