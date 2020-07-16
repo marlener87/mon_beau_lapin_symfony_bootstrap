@@ -43,4 +43,20 @@ class MblController extends AbstractController
     {
         return $this->render('mbl/text.html.twig');
     }
+
+    /**
+     * @Route("/form", name="form")
+     */
+    public function form()
+    {
+        return $this->render('mbl/form.html.twig');
+    }
+
+    /**
+     * @Route("/test", name="test")
+     */
+    public function test()
+    {
+        return $this->render('mbl/test.html.twig');
+    }
 }

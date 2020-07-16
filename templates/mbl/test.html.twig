@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon beau lapin{% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="css/style.css">
+<style></style>
+
+
+<!-- BANNIERE -->
+<img src="images/banniere2.jpg" class="img-fluid" alt="Responsive image">
+
+<!-- TEXTE -->
+<div class="container-fluid body">
+    <div class="text">
+    <p class="phrase font-weight-bold text-center">Page test</p>
+
+    <p class="espace">Le lapin de compagnie est un animal affectueux qui a trouvé sa place au sein des foyers. Intelligent et sensible, il requiert l’attention et l’affection de ses maîtres.</p> 
+    <p class="espace"> Mais <em class="text-danger font-weight-bold">adopter un lapin n’est pas une décision à prendre à la légère.</em> Renseignez-vous bien avant de vous lancer pour voir si le lapin de compagnie peut être un animal qui vous correspond et pour bien préparer son arrivée.</p> 
+    <p class="espace"> Ce site constitue une mine d’informations tant en vue de son acquisition que pour son entretien au quotidien: éducation, alimentation, santé,...</p>
+    </div>
+
+    <div class="row d-flex align-items-end pb-4">
+        <div class="col-md-2">
+            <img src="images/logo.jpg" alt="lapin bélier gris" class="rounded logo img-fluid d-none d-md-block">
+        </div>
+        
+        <div class="col-md-8">
+            <p><strong>Petits conseils:</strong></p>
+            <p>- Non à la cage: elle n’est absolument pas adaptée aux lapins, qui sont des animaux vifs qui ont besoin d’espace pour courir et sauter.</p> 
+            <p>- Ca coûte cher en entretien (au quotidien avec son alimentation, ou occasionnellement avec les frais vétérinaires).</p>
+            <p>- Adoptez: ne cautionnez pas l’exploitation d’animaux en animaleries ou en élevages, adoptez des lapins qui ont été abandonnés dans une association.</p>
+            <p>- Pas pour les enfants: un lapin est un animal fragile, caractériel et coûteux. Il ne peut être de la seule responsabilité d’un enfant.</p>
+            <p>- 10 ans d’engagement: un lapin a une espérance de vie de 10 à 12 ans. C’est un engagement à long terme.</p>
+            <p>- Une alimentation naturelle: l’alimentation du lapin est basée essentiellement sur le foin et la verdure fraîche.</p>
+        </div>
+
+        <div class="col-md-2">
+            <img src="images/chemin2.jpg" alt="lapin blanc sur un chemin" class="rounded chemin img-fluid d-none d-md-block">
+        </div>
+    </div>
+</div>
+{% endblock %}
